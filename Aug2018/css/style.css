@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+::-moz-selection {
+  background: transparent;
+}
+::selection {
+  background: transparent;
+}
+
+html, body {
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dg.main {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  display: none;
+}
+
+.dg.main:hover {
+  opacity: 0.75;
+}
+/*
+.info-panel {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  background-color: rgba(20, 20, 20, 0.7);
+  padding: 20px 60px 20px 30px;
+  color: whitesmoke;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 0 4px 4px 0;
+  -webkit-transform: translateX(calc(-100% + 30px));
+          transform: translateX(calc(-100% + 30px));
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  opacity: 0.3;
+}
+
+.info-panel:hover {
+  opacity: 0.7;
+}
+
+.info-panel h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
+}
+.info-panel p {
+  margin-bottom: 0.2;
+}
+.info-panel #lbl-info-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 30px;
+  text-align: center;
+  background: rgba(30, 30, 30, 0.7);
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+.info-panel #lbl-info-toggle .icon-info {
+  font-size: 0.8em;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+*/
+/*
+#chk-info-toggle {
+  display: none;
+}
+#chk-info-toggle:checked ~ .info-panel {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+#chk-info-toggle:checked ~ .info-panel #lbl-info-toggle .icon-info {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+*/
+
+/*
+
+  .dg .main a .taller-than-window {
+    display: none;
+  }
+
+  .taller-than-window {
+    display: none;
+  }
+
+*/
