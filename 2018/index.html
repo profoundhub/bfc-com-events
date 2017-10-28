@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Clock & Date</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <style>    
+    /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+    @import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *::after, *::before {
+      box-sizing: inherit;
+    }
+
+    *, *:before, *:after {
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    html {
+      font-family: 'Courier New', monospace;
+      font-size: 16px;
+      font-smooth: auto;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    body {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .alarm-clock {
+      position: relative;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: tan;
+    }
+
+    .alarm-clock .date {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+      transform: translateX(-50%);
+      z-index: 9;
+    }
+
+    .alarm-clock .time {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 40px 15px;
+      background-color: #333;
+      border-radius: 10px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 52px;
+    }
+
+    .alarm-clock .time span {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      color: #e74c3c;
+      text-shadow: 0 0 15px rgba(231, 76, 60, 0.4);
+      line-height: 1.75;
+    }
+
+    .alarm-clock .time span:nth-of-type(5) {
+      width: 90px;
+    }
+
+    .alarm-clock .time span.colon {
+      width: 12px;
+      text-align: center;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      70% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '487884434923825');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=487884434923825&ev=PageView&noscript=1"
+		/></noscript>
+    <!-- End Facebook Pixel Code -->    
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108355750-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-108355750-1');
+</script>
+<body>  
+<script>!function(a,b,c,d,t){var e,f=a.getElementsByTagName("head")[0];if(!a.getElementById(c)){if(e=a.createElement(b),e.id=c,e.setAttribute("data-vrlps-ucid",d),e.setAttribute("data-vrlps-version","2"), e.setAttribute("data-vrlps-template", t),e.src="https://app.viral-loops.com/popup_assets/js/vl_load_v2.min.js",window.ub){jQuery=null,$=null;var g=a.createElement(b);g.src="https://code.jquery.com/jquery-2.2.4.min.js",f.appendChild(g)}f.appendChild(e);var h=a.createElement("link");h.rel="stylesheet",h.type="text/css",h.href="https://app.viral-loops.com/static/vl-loader.css",f.appendChild(h);var i=a.createElement("div");i.id="vl-overlay",i.style.display="none";var j=a.createElement("div");j.id="vl-loader",i.appendChild(j),a.addEventListener("DOMContentLoaded",function(b){a.body.appendChild(i);for(var c=a.getElementsByClassName("vrlps-trigger"),d=0;d<c.length;d++)c[d].removeAttribute("href"),c[d].onclick=function(){a.getElementById("vl-overlay").style.display="block"};var e=a.querySelectorAll("[data-vl-widget='popupTrigger']");[].forEach.call(e,function(b){var c=a.createElement("div");c.className="vl-embedded-cta-loader",b.appendChild(c)})})}}(document,"script","vrlps-js","AZ-xuzVVjsuKFsDU0Zd6zlRH_xo","waitlist");</script>
+  
+  <div class="alarm-clock">
+    <div class="date">
+      <span class="month"></span>
+      <span class="day"></span>,
+      <span class="year"></span>
+    </div>
+
+    <div class="time">
+      <span class="hours"></span>
+      <span class="colon">:</span>
+      <span class="minutes"></span>
+      <span class="colon">:</span>
+      <span class="seconds"></span>
+    </div>
+  </div>
+
+                    <!--
+                      Your HTML goes here. Visit purecss.io/layouts/ for some sample HTML code.
+                    -->
+
+Dec. 2017
+
+Jan. 2018
+Feb. 2018
+Mar. 2018
+
+Apr. 2018
+May 2018
+Jun. 2018
+
+Jul. 2018
+Aug. 2018
+Sept. 2018
+
+Oct. 2018
+Nov. 2018
+Dec. 2018
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script  src="./js/index.js"></script>
+</body>
+</html>
