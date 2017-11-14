@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nexus Networking Party</title>
+	<title>Nexus Networking Party | Battleford Corp.</title>
 	<meta charset="utf-8">
 	<meta name="description" content="Battleford Corp - Nexus Networking Event & SO MUCH MORE">
 	<meta name="keywords" content="Battleford Corp., Sponsor, Sponsoring, Events, Decks, Battleford_Corp">
@@ -162,7 +162,7 @@
 
   <div id="hamburger"><div></div></div>
 
-  <div id="header">
+  <div id="header" class="mobile-hide">
   <!-- class="scroll" -->
 	  <div class="menu">
 		  <div class="close-menu">
@@ -170,7 +170,10 @@
 		  <div class="t-cell">
 			  <div class="table">
 				  <div jt-view="logo">
-					  <div class="logo" jt-template="logo"></div>
+					  <div class="logo" jt-template="logo">
+					  	<!-- <img src="image/BattlefordCorpLogo.png" style="width:35px;" /> -->
+						  <img src="./image/battlefordCorp-2.png" style="width:200px;" />
+					  </div>
 				  </div>
 			  </div>
 		  </div>
@@ -402,6 +405,9 @@
 									  <h5 class="font-high font-500 color-one" jt-attr="title">Battleford's Giant Nexus Networking Event 2017</h5>
 									  <br>
 									  	<p jt-attr="content"><p>You are cordially invited to attend our upcoming Nexus Networking Event on December 4th, 2017. <br><br>We've decided to throw a Giant Business Networking party on December 4th 2017 to bring people together and celebrate 2017 + get ready to kick off 2018!<br><br>This will be an Open Networking event is also for those interested in making meeting new people, finding a job or connecting with others who might have what you are looking for. We would love to meet you in person at the event, be sure to come say "Hi'! <br><br>Please feel free to invite your friends to this Open Networking Party!<br><br>There will be a lot of professionals, artists, students, recruiters, business owners, entrepreneurs, investors, senior citizens, &amp; Angel Investors, plus local startups, businesses and companies with gifts, swag, prizes and show specials + deals, just for you.<br><br>We are expecting a couple thousand attendees, so please do grab your tickets before it's too late to RSVP here: https://goo.gl/yz5QMk<br><br>I love to see you there, and meet you in person, as we network, mingle and get to know each other and discover ways we can collaborate!</p>
+											
+											<br><br><p><h4>Social Media:</h4></p>
+											
 <p>
 	<strong>Google+:</strong> https://goo.gl/F3nntn/<br>
 	<strong>Twitter:</strong> https://twitter.com/battleford_corp/<br>
@@ -697,25 +703,25 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 													  <p class="font-high" jt-attr="name">13-18 Years old</p>
 												  </div>
 												  <div class="gauge">
-													  <div class="done" alt-value="8" style="width: 8%;"></div>
+													  <div class="done" alt-value="8" style="width: 16%;"></div>
 												  </div>
-												  <div class="value font-high" jt-attr="percent">8%</div>
+												  <div class="value font-high" jt-attr="percent">16%</div>
 											  </div><div class="type color-content" jt-subtemplate-view="">
 												  <div class="description">
 													  <p class="font-high" jt-attr="name">18-24 Years old</p>
 												  </div>
 												  <div class="gauge">
-													  <div class="done" alt-value="14" style="width: 14%;"></div>
+													  <div class="done" alt-value="14" style="width: 16%;"></div>
 												  </div>
-												  <div class="value font-high" jt-attr="percent">14%</div>
+												  <div class="value font-high" jt-attr="percent">16%</div>
 											  </div><div class="type color-one" jt-subtemplate-view="">
 												  <div class="description">
 													  <p class="font-high" jt-attr="name">25-34 Years old</p>
 												  </div>
 												  <div class="gauge">
-													  <div class="done" alt-value="13" style="width: 13%;"></div>
+													  <div class="done" alt-value="13" style="width: 15%;"></div>
 												  </div>
-												  <div class="value font-high" jt-attr="percent">13%</div>
+												  <div class="value font-high" jt-attr="percent">15%</div>
 											  </div><div class="type color-three" jt-subtemplate-view="">
 												  <div class="description">
 													  <p class="font-high" jt-attr="name">35-44 Years old</p>
@@ -745,17 +751,17 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 													  <p class="font-high" jt-attr="name">66-75 Years old</p>
 												  </div>
 												  <div class="gauge">
-													  <div class="done" alt-value="16" style="width: 16%;"></div>
+													  <div class="done" alt-value="16" style="width: 6%;"></div>
 												  </div>
-												  <div class="value font-high" jt-attr="percent">16%</div>
+												  <div class="value font-high" jt-attr="percent">6%</div>
 											  </div><div class="type color-three" jt-subtemplate-view="">
 												  <div class="description">
 													  <p class="font-high" jt-attr="name">76-88 Years old</p>
 												  </div>
 												  <div class="gauge">
-													  <div class="done" alt-value="7" style="width: 7%;"></div>
+													  <div class="done" alt-value="7" style="width: 5%;"></div>
 												  </div>
-												  <div class="value font-high" jt-attr="percent">7%</div>
+												  <div class="value font-high" jt-attr="percent">5%</div>
 											  </div></div>
 									  </div>
 								  </div></div>
@@ -953,17 +959,16 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 							  <div class="box" style="width: auto;">
 								  <div class="menu" style="opacity: 1; margin-bottom: 62px;">
 									  <ul>
-										  <li jt-section-view="packages_s1" class="color-content">SPONSORSHIP PACKAGES</li>
-										  <li jt-section-view="packages_s2" class="select color-one">ADDITIONAL OFFERS</li>
+										<li id="packages_s1" class="color-content">SPONSORSHIP PACKAGES</li>	
+										<li id="packages_s2" class="select color-one">ADDITIONAL OFFERS</li>										  
 									  </ul>
 								  </div>
 								  <div class="elements" style="clear: both;"><?php /* height: 480px; */ ?>
-									  <div class="element" jt-section-view="packages_s1" style="display: none; position: relative; top: 0px; transform: translate(1000px, 0px); opacity: 0;">
+									  <div class="element" onclick="toggle_visibility('packages_s2');" id="packages_s1" style="display: none; position: relative; top: 0px; transform: translate(1000px, 0px); opacity: 0;">
 										  <div id="number_packs"><span class="number">3</span>  PACKAGES AVAILABLE</div>
 										  <div class="offers">
 											  <!-- <div class="mouse-left"></div>
 											  <div class="mouse-right"></div> -->
-
 											  <div class="scroll-x" jt-view="packages" jt-attr="custom"><div class="wrap-pack three-packs" jt-template-view="packages" id="pack-0">
 
 													  <div class="pack gold">
@@ -1194,7 +1199,7 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 										  </div>
 									  </div>
 
-									  <div class="element" jt-section-view="packages_s2" style="display: block; position: relative; top: 0px; transform: translate(0px, 0px); opacity: 1;">
+									  <div class="element" is="packages_s2" style="display:none; display: block; position: relative; top: 0px; transform: translate(0px, 0px); opacity: 1;">
 										  <div class="table-packages">
 											  <div class="table">
 												  <table jt-view="non_packages"><tbody><tr jt-template-view="non_packages">
@@ -1281,8 +1286,8 @@ ONLY GOLD
 			  </div>
 			  <div class="banner-image">
 				  	<div class="slogan">
-					  <img src="./images/battlefordCorp-1.png" style="width: 25%!important; margin-left: auto; margin-right: auto; top: 0px; position: relative;" />
-					  <h3 class="font-high font-400 color-one" jt-template="transition_texts"></h3>
+					  <!-- <img src="./images/battlefordCorp-1.png" style="width: 25%!important; margin-left: auto; margin-right: auto; top: 0px; position: relative;" /> -->
+					  <h3 class="font-high font-400 color-one" jt-template="transition_texts">Thank You!</h3>
 					</div>
 				  
 				  <img src="image/background/Transition3.jpg" jt-template="transition_images" alt="Battleford Corp. Deck Builder">
@@ -1349,7 +1354,7 @@ ONLY GOLD
   <div class="footer">
 	  <div class="battleford">
 		  <a href="http://www.battlefordcorp.com" title="battlefordcorp" target="_blank">
-			  <img src="image/battlefordCorp-2.png" alt="logo" class="retina" width="292px">
+			  <!-- <img src="image/battlefordCorp-2.png" alt="logo" class="retina" width="292px"> -->
 		  </a>
 	  </div>
 	  <h3 class="font-high font-normal text-uppercase"><a href="http://www.battlefordcorp.com" title="Battleford Corp." target="_blank"></a>
@@ -1358,7 +1363,7 @@ ONLY GOLD
 	  <div class="content">
 		  <div class="row">
 			  <div class="coll8 small16 smb40">
-				  <img src="image/BattlefordCorpLogo.png" alt="logo Battleford Corp." class="retina" width="219px">
+				  <img src="./image/battlefordCorp-2.png" alt="logo Battleford Corp." class="retina" width="219px">
 				  <p></p>
 				  <br>
 				  <p>
@@ -1438,7 +1443,7 @@ ONLY GOLD
 
 <script type="text/javascript">
 	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-41034635-10']);
+	_gaq.push(['_setAccount', 'UA-108355750-1']);
 	_gaq.push(['_trackPageview']);
 
 	(function() {
@@ -1448,11 +1453,39 @@ ONLY GOLD
 	})();
 </script>
 <div id="script">
+<!-- <script type="text/javascript" src="javascript/template.js"></script> -->
 	<!-- <script type="text/javascript" src="javascript/template.js?load=0.9661776819791119"></script>
 	<script type="text/javascript" src="javascript/form_contact.js?load=0.9570857133350024"></script>
 	<script type="text/javascript" src="javascript/load_element.js?load=0.5407201709839922"></script>
 	<script type="text/javascript" src="javascript/load_template_element.js?load=0.9986364430288208"></script>
 	 -->
+
+	 <script>
+
+
+		function showSection(containerView) {
+			var sectionView = containerView.parents('[jt-section-view]');
+			var sectionName = sectionView.attr('jt-section-view');	
+
+			if(!sectionView.hasClass('element')) {
+				return;
+			}
+
+			sectionView.parent().children('.element').not('[jt-section-view="packages_s1"]').not('[jt-section-view="packages_s2"]').hide();
+			sectionView.show();
+		}
+
+		showSection(containerView);
+	</script>
+	<script type="text/javascript">
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+        }
+    </script>
 </div>
 
 <!-- <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src=""><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body> -->
