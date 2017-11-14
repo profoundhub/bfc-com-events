@@ -630,7 +630,8 @@ h6{font-size: 14px;font-family: "Proxima Nova";font-weight: 400;text-transform: 
 	background-color: #f1f3f4;
 }
 .box .menu ul li:hover{
-	color: #54636d;
+	/* color: #54636d; */
+	color: gold;
 	border-color: #E9E9E9;
 	border-top-color: #828B91;
 	border-bottom-color: transparent;
@@ -718,7 +719,8 @@ h6{font-size: 14px;font-family: "Proxima Nova";font-weight: 400;text-transform: 
 	color: #3aa9e3;
 }
 .box .element p.color-one {
-	color: #8ca3b3;
+	/* color: #8ca3b3; */
+	color: whitesmoke;
 }
 .box .element .presentation p{
 	margin-bottom: 0;
