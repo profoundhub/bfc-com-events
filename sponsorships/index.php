@@ -959,7 +959,7 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 							  <div class="box" style="width: auto;">
 								  <div class="menu" style="opacity: 1; margin-bottom: 62px;">
 									  <ul>
-										<li id="packages_s1" class="color-content">SPONSORSHIP PACKAGES</li>	
+										<li id="packages_s1" class="color-content greenButton">SPONSORSHIP PACKAGES</li>	
 										<li id="packages_s2" class="select color-one">ADDITIONAL OFFERS</li>										  
 									  </ul>
 								  </div>
@@ -1059,7 +1059,7 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 																  <path fill="#B0AFB0" d="M22.884,12.166c0,0,0.001-0.002,0.003-0.002l0.08-0.081c0.002-0.002,0.003-0.002,0.003-0.002  c0.422-0.441,0.64-1.006,0.653-1.572h0.001l0.196-5.326l0.01-0.247c-0.01-0.595-0.24-1.186-0.697-1.64l-2.619-2.604  C20.034,0.215,19.403-0.014,18.774,0h-0.003l-0.224,0.016l0,0l-5.176,0.36c-0.005,0-0.009,0-0.013,0l-0.101,0.007  c-0.001,0-0.001,0-0.001,0c-0.465,0.047-0.92,0.225-1.297,0.54l-0.289,0.286L0.564,12.188l-0.165,0.163  c-0.556,0.633-0.53,1.593,0.076,2.198l8.86,8.809c0.632,0.628,1.657,0.628,2.291,0h0.002c0-0.002,0-0.002,0.001-0.002L22.884,12.166  z M17.242,6.513c-0.725-0.72-0.807-1.837-0.244-2.646c0.07-0.104,0.151-0.202,0.244-0.294c0.694-0.69,1.756-0.793,2.562-0.309  c0.141,0.084,0.274,0.188,0.396,0.309c0.134,0.133,0.247,0.282,0.337,0.439c0.457,0.793,0.346,1.822-0.337,2.501  c-0.093,0.094-0.193,0.174-0.298,0.247C19.086,7.316,17.965,7.232,17.242,6.513z"></path>
 															  </svg>
 														  </span>
-														  <span jt-attr="quantity">1</span><span jt-attr="total"></span> <span class="disptxt">available</span>
+														  <span jt-attr="quantity">10</span><span jt-attr="total"></span> <span class="disptxt">available</span>
 													  </p>
 
 												  </div><div class="wrap-pack three-packs" jt-template-view="packages" id="pack-1">
@@ -1128,7 +1128,7 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 																  <path fill="#B0AFB0" d="M22.884,12.166c0,0,0.001-0.002,0.003-0.002l0.08-0.081c0.002-0.002,0.003-0.002,0.003-0.002  c0.422-0.441,0.64-1.006,0.653-1.572h0.001l0.196-5.326l0.01-0.247c-0.01-0.595-0.24-1.186-0.697-1.64l-2.619-2.604  C20.034,0.215,19.403-0.014,18.774,0h-0.003l-0.224,0.016l0,0l-5.176,0.36c-0.005,0-0.009,0-0.013,0l-0.101,0.007  c-0.001,0-0.001,0-0.001,0c-0.465,0.047-0.92,0.225-1.297,0.54l-0.289,0.286L0.564,12.188l-0.165,0.163  c-0.556,0.633-0.53,1.593,0.076,2.198l8.86,8.809c0.632,0.628,1.657,0.628,2.291,0h0.002c0-0.002,0-0.002,0.001-0.002L22.884,12.166  z M17.242,6.513c-0.725-0.72-0.807-1.837-0.244-2.646c0.07-0.104,0.151-0.202,0.244-0.294c0.694-0.69,1.756-0.793,2.562-0.309  c0.141,0.084,0.274,0.188,0.396,0.309c0.134,0.133,0.247,0.282,0.337,0.439c0.457,0.793,0.346,1.822-0.337,2.501  c-0.093,0.094-0.193,0.174-0.298,0.247C19.086,7.316,17.965,7.232,17.242,6.513z"></path>
 															  </svg>
 														  </span>
-														  <span jt-attr="quantity">3</span><span jt-attr="total"></span> <span class="disptxt">available</span>
+														  <span jt-attr="quantity">15</span><span jt-attr="total"></span> <span class="disptxt">available</span>
 													  </p>
 
 												  </div><div class="wrap-pack three-packs" jt-template-view="packages" id="pack-2">
@@ -1191,7 +1191,7 @@ We are expecting a couple thousand Professionals, Artists, Students, Recruiters,
 																  <path fill="#B0AFB0" d="M22.884,12.166c0,0,0.001-0.002,0.003-0.002l0.08-0.081c0.002-0.002,0.003-0.002,0.003-0.002  c0.422-0.441,0.64-1.006,0.653-1.572h0.001l0.196-5.326l0.01-0.247c-0.01-0.595-0.24-1.186-0.697-1.64l-2.619-2.604  C20.034,0.215,19.403-0.014,18.774,0h-0.003l-0.224,0.016l0,0l-5.176,0.36c-0.005,0-0.009,0-0.013,0l-0.101,0.007  c-0.001,0-0.001,0-0.001,0c-0.465,0.047-0.92,0.225-1.297,0.54l-0.289,0.286L0.564,12.188l-0.165,0.163  c-0.556,0.633-0.53,1.593,0.076,2.198l8.86,8.809c0.632,0.628,1.657,0.628,2.291,0h0.002c0-0.002,0-0.002,0.001-0.002L22.884,12.166  z M17.242,6.513c-0.725-0.72-0.807-1.837-0.244-2.646c0.07-0.104,0.151-0.202,0.244-0.294c0.694-0.69,1.756-0.793,2.562-0.309  c0.141,0.084,0.274,0.188,0.396,0.309c0.134,0.133,0.247,0.282,0.337,0.439c0.457,0.793,0.346,1.822-0.337,2.501  c-0.093,0.094-0.193,0.174-0.298,0.247C19.086,7.316,17.965,7.232,17.242,6.513z"></path>
 															  </svg>
 														  </span>
-														  <span jt-attr="quantity">10</span><span jt-attr="total"></span> <span class="disptxt">available</span>
+														  <span jt-attr="quantity">25</span><span jt-attr="total"></span> <span class="disptxt">available</span>
 													  </p>
 
 												  </div></div>
@@ -1346,7 +1346,7 @@ ONLY GOLD
 			  </div>
 		  </div>
 		  <div class="footer-contact">
-			  <h3 class="font-high font-normal text-uppercase"><span class="icn-contact"></span><span>Sponsor Us</span></h3>
+			  <h3 class="font-high font-normal text-uppercase"><span class="icn-contact"></span><span>Sponsorship Packages</span></h3>
 		  </div>
 	  </div>
   </div>
@@ -1476,6 +1476,9 @@ ONLY GOLD
 		}
 
 		showSection(containerView);
+
+		sectionView.parent().children('.element').not('[jt-section-view="packages_s1"]').show();
+
 	</script>
 	<script type="text/javascript">
         function toggle_visibility(id) {
