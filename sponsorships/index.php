@@ -58,11 +58,6 @@
 	  </div></div>
 	  <div class="content">
 		  <form action="/api/proposals/nexus-networking-event-party/contact" method="POST">
-		 	<?php /* 
-				<form action="/api/proposals/nexus-networking-event-party/contact" method="POST">				  
-				https://www.sponseasy.com/api/proposals/nexus-networking-event-party/contact
-				https://www.sponseasy.com/p/nexus-networking-event-party/api/proposals/nexus-networking-event-party/contact
-		  	*/ ?>
 			  <div class="row">
 				  <div class="coll16 tac">
 					  <h2>CONTACT US</h2>
@@ -117,15 +112,17 @@
 							  <textarea name="contact[content]" required="required" placeholder="Tell us more about you"></textarea>
 						  </div>
 					  </div>
-  <!-- 						<div class="input-select">
-						  <select>
-							  <option value="default">Choose your pack</option>
-							  <option value="gold">gold</option>
-							  <option value="silver">silver</option>
-							  <option value="bronze">bronze</option>
-							  <option value="diamond">diamond</option>
-						  </select>
-					  </div> -->
+  						<!--
+							<div class="input-select">
+								<select>
+									<option value="default">Choose your pack</option>
+									<option value="gold">gold</option>
+									<option value="silver">silver</option>
+									<option value="bronze">bronze</option>
+									<option value="diamond">diamond</option>
+								</select>
+							</div> 
+						-->
 				  </div>
 				  <div class="section coll16">
 					  <div class="coll4 tac section-title small16">
@@ -186,7 +183,7 @@
 		  <div class="t-cell header-contact">
 			  <div class="button-contact table ">
 				  <div class="t-cell align-middle">
-					  Sponsor us<span class="icn-contact"></span>
+					  Sponsor Us<span class="icn-contact"></span>
 				  </div>
 			  </div>
 		  </div>
@@ -411,7 +408,6 @@
 	<strong>Snapchat:</strong> https://www.snapchat.com/battlefordcorp/<br>
 	<strong>Facebook:</strong> https://www.facebook.com/battlefordcorp/<br>
 	<strong>Instagram:</strong> https://www.instagram.com/battlefordcorp/
-
 </p>
 							  </div>
 							  <div jt-template-view="event_description_details" class="description-details">
@@ -420,7 +416,7 @@
 								  </div>
 									  <h5 class="font-high font-500 color-one" jt-attr="title"></h5>
 									  <br>
-									  <p jt-attr="content"><p>This is an opportunity for  you to identify and promote yourself &amp; your organization  within the Greater Toronto Entrepreneurs Community in the GTA &amp; Beyond, as  well as to build up your Business Network using the services, resources and  opportunities Battleford Corporation provides.</p><p><br></p><p>NOTE: Sponsorship opportunities are limited on a first come, first  serve basis. </p><p><br></p><p>** Please Read Our Sponsorship Agreement. **</p><p>** Please Read Battleford  Corporation Advertising Guidelines. **</p><p><br></p><p>All Handbooks Will Be Available Electronically at www.Battlefordcorp.com/Events/Dec2017/networking/</p><p><br></p><p>Tel.: (437) 886-4685 </p><p>Email: info@battlefordcorp.com</p></p>
+									  <p jt-attr="content"><p>This is an opportunity for you to identify and promote yourself &amp; your organization  within the Greater Toronto Entrepreneurs Community in the GTA &amp; Beyond, as  well as to build up your Business Network using the services, resources and  opportunities Battleford Corporation provides.</p><p><br></p><p>NOTE: Sponsorship opportunities are limited on a first come, first  serve basis. </p><p><br></p><p>** Please Read Our Sponsorship Agreement. **</p><p>** Please Read Battleford  Corporation Advertising Guidelines. **</p><p><br></p><p>All Handbooks Will Be Available Electronically at www.Battlefordcorp.com/Events/Dec2017/networking/</p><p><br></p><p>Tel.: (437) 886-4685 </p><p>Email: info@battlefordcorp.com</p></p>
 							  </div>
 							</div>
 					  </div>
@@ -1452,10 +1448,12 @@ ONLY GOLD
 	})();
 </script>
 <div id="script">
-	<script type="text/javascript" src="javascript/template.js?load=0.9661776819791119"></script>
+	<!-- <script type="text/javascript" src="javascript/template.js?load=0.9661776819791119"></script>
 	<script type="text/javascript" src="javascript/form_contact.js?load=0.9570857133350024"></script>
 	<script type="text/javascript" src="javascript/load_element.js?load=0.5407201709839922"></script>
 	<script type="text/javascript" src="javascript/load_template_element.js?load=0.9986364430288208"></script>
+	 -->
 </div>
-<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src=""><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body>
+
+<!-- <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src=""><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body> -->
 </html>
