@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url( '../fonts/avenir.eot');
+	src: local('☺'), url( '../fonts/avenir.woff') format('woff'),
+	url( '../fonts/avenir.ttf') format('truetype'), 
+	url( '../fonts/avenir.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+font-family: 'Proxima Nova';
+	src: url( '../fonts/proximanova-regular.eot');
+	src: url( 'fonts/proximanova-regular.eot') format('embedded-opentype'),
+	url( '../fonts/proximanova-regular.woff') format('woff'),
+	url( '../fonts/proximanova-regular.ttf') format('truetype'),
+	url( '../fonts/proximanova-regular.svg#ProximaNovaRegular') format('svg');
+}
