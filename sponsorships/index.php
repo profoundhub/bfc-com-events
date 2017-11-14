@@ -196,7 +196,8 @@
   <div class="hero-image">
 	  <div class="slogan">
 		  <h1 class="font-400" jt-view="name">Nexus Networking Event Party</h1>
-		  <p jt-template="transition_texts">Sponsorship proposal</p>
+		  <p jt-template="transition_texts"><img src="image/BattlefordCorpLogo.png" style="width: 25px; top: 10px; position: relative;" />&nbsp;&nbsp;  Sponsorship Proposal</p>
+		  
 	  </div>
 
 	  <div class="image-large" jt-template="header">
@@ -1288,6 +1289,7 @@ ONLY GOLD
 				  	<div class="slogan">
 					  <!-- <img src="./images/battlefordCorp-1.png" style="width: 25%!important; margin-left: auto; margin-right: auto; top: 0px; position: relative;" /> -->
 					  <h3 class="font-high font-400 color-one" jt-template="transition_texts">Thank You!</h3>
+					  
 					</div>
 				  
 				  <img src="image/background/Transition3.jpg" jt-template="transition_images" alt="Battleford Corp. Deck Builder">
@@ -1347,6 +1349,7 @@ ONLY GOLD
 		  </div>
 		  <div class="footer-contact">
 			  <h3 class="font-high font-normal text-uppercase"><span class="icn-contact"></span><span>Sponsorship Packages</span></h3>
+			  <!-- <img src="image/BattlefordCorpLogo.png" /> -->
 		  </div>
 	  </div>
   </div>
