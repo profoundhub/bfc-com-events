@@ -1,0 +1,29 @@
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+#header .menu ul li#menu-project {background-image: url(../image/icon/project@2x.png);}
+#header .menu ul li#menu-speaker {background-image: url(../image/icon/speaker@2x.png);}
+#header .menu ul li#menu-audience {background-image: url(../image/icon/tele@2x.png);}
+#header .menu ul li#menu-aboutus {background-image: url(../image/icon/team@2x.png);}
+#header .menu ul li#menu-medias {background-image: url(../image/icon/media@2x.png);}
+#header .menu ul li#menu-finances {background-image: url(../image/icon/finance@2x.png);}
+#header .menu ul li#menu-offers {background-image: url(../image/icon/offre@2x.png);}
+#header .menu ul li#menu-sponsor {background-image: url(../image/icon/sponsor@2x.png);}
+#header .menu ul li#menu-annexes {background-image: url(../image/icon/link@2x.png);}
+#header .menu .button-contact{background-image: url(../image/icon/arrow-contact@2x.png);}
+
+.team .member .above li.phone{background-image:url('../image/icon/phone@2x.png');}
+.team .member .above li.mail{background-image:url('../image/icon/mail@2x.png');}
+.team .one-member .member .above li.mail, .team .one-speaker .member .above li.mail{background-image:url('../image/icon/mail-color@2x.png');}
+.team .member .above li.linkedin{background-image:url('../image/icon/linkedin@2x.png');}
+.team .one-member .member .above li.linkedin, .team .one-speaker .member .above li.linkedin{background-image:url('../image/icon/linkedin-color@2x.png');}
+.team .member .above li.twitter{background-image:url('../image/icon/twitter@2x.png');}
+.team .one-member .member .above li.twitter, .team .one-speaker .member .above li.twitter{background-image:url('../image/icon/twitter-color@2x.png');}
+.team .member .above li.github{background-image:url('../image/icon/github@2x.png');}
+.team .one-member .member .above li.github, .team .one-speaker .member .above li.github{background-image:url('../image/icon/github-color@2x.png');}
+
+.box .control .panel .arrowslider-left{background-image: url('../image/icon/arrowslider@2x.png');}
+.box .control .panel .arrowslider-right{background-image: url('../image/icon/arrowslider@2x.png');}
+
+.footer-contact h3 .icn-contact{background-image: url('../image/icon/sponsorus@2x.png');}
+
+}

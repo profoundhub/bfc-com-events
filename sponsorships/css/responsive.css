@@ -1,0 +1,353 @@
+@media handheld and (max-width: 1200px), screen and (max-width: 1200px)  {
+
+.hero-image {
+	max-height: 85%;
+}
+.description-details {
+	margin-left: 0;margin-right: 0;
+	margin-bottom: 50px;
+}
+.nav .backtotop {
+	right: 0;
+}
+.content {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 40px;
+}
+.box .control .panel .arrowslider-left {
+	left: -40px;
+}
+.box .control .panel .arrowslider-right {
+	right: -40px;
+}
+.super .presentation {
+	width: 100%;
+	min-width: 0;
+}
+.box {
+	display: block;
+}
+.box .menu {
+	width: 100%;
+}
+.row {
+	margin-left: 0;
+}
+.coll16 {
+	padding-left: 0;
+}
+.target>.coll7:nth-child(2n+1) {
+	margin-left: 0;
+}
+.target-audience>.coll7:nth-child(even) {
+	margin-left: 0;
+}
+
+}
+
+@media handheld and (max-width: 768px), screen and (max-width: 768px)  {
+
+#sp {
+	max-width: 100%;
+	min-width: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+.content {
+	padding: 0 20px;
+}
+.row, .wrow, .target .row {
+	margin-left: 0;
+}
+.coll16, .coll2, .coll4, .coll8, .coll6, .coll7, .coll9, .w5 {
+	padding-left: 0;
+}
+.small16 {
+	width: 100% !important;
+	margin-bottom: 20px;
+}
+.small8 {
+	width: 50%;
+	margin-bottom: 20px;
+}
+.small13 {
+	width: 33%;
+	margin-bottom: 20px;
+}
+
+.smb40 {
+	margin-bottom: 40px;
+}
+
+.padding-right-14 {
+	padding-right: 0;
+}
+
+#header {
+	height: 100%;
+	left: -100%;
+	overflow: auto;
+}
+#header .close-menu {
+	display: block;
+}
+#header.open {
+	left: 0;
+}
+#header .menu {
+	width: 100%;height: 100%;display: block;
+}
+#header .menu .t-cell {
+	display: block;
+}
+#header .menu ul {
+	display: block;
+}
+#header .menu ul li.select, #header .menu ul li:hover {
+height: 63px;
+display: block;
+vertical-align: middle;
+background: none;
+border-right: 1px solid rgba(0,0,0,0.1);
+border-bottom: 1px solid #dedede;
+background-position: center 70px;
+background-repeat: no-repeat;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+#header .menu ul li {
+	display: block;
+	border-bottom: 1px solid #dedede;
+}
+#header .menu ul li:nth-child(1){
+	border-top: 1px solid #dedede;
+}
+#header .menu ul li a {
+	font-size: 18px;
+}
+#header .menu ul li.select a, #header .menu ul li:hover a {
+	opacity: 1;
+}
+#header .menu .right {
+	float: none;
+}
+#header .menu .logo {
+	display: block;width: 100%;
+	background-color: transparent;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#header .menu .t-cell.header-contact {
+	display: block;
+	width: 100%;
+}
+#header .menu .t-cell.header-contact .t-cell {
+	display: table-cell;
+}
+#header .menu .button-contact {
+	width: 100%;
+	font-size: 18px;
+}
+
+#hamburger {
+	display: block;
+}
+
+.nav .backtotop {
+	right: 0;
+}
+
+.super .presentation {
+	min-width: 100%;
+}
+.description-details-img {
+	width: 100%;height: auto;
+	margin-bottom: 20px;
+}
+.description-details-img img {
+	position: relative;
+}
+.description-details p, .description-details h5, .description-details:nth-child(even) p, .description-details:nth-child(even) h5 {
+	padding: 0;
+}
+.sponsorship-needed .sponsorship-needed-package td.open {
+	display: block;padding-bottom: 30px;margin-bottom: 30px;
+}
+.sponsorship-needed .sponsorship-needed-package td.border {
+	border: none;
+	border-bottom: 1px solid #46535b;
+}
+
+.numbers .circle {
+	width: 50%;
+	margin: 25px 0px 10px;
+}
+.numbers p {
+	word-wrap: break-word;
+}
+
+.team .member .above, .team .member .above li span:not(:empty) {
+	opacity: 1;
+}
+.team.speakers .member .above li.linkedin, .team.speakers .member .above li.twitter, .team .member .above li.phone, .team .member .above li.mail, .team .member .above li.linkedin, .team .member .above li.twitter {
+	background-position-x: center;
+}
+.team .one-member .above, .team .one-member .under, .team.speakers .one-speaker .above, .team.speakers .one-speaker .under {
+	padding-left: 0;
+}
+.team .one-member .team-img-cover, .team .one-speaker .team-img-cover {
+	position: relative;
+	max-width: 100%;
+}
+
+.target > .coll7, .target-audience > .coll7 {
+	margin-left: 0px !important;
+}
+.target .map-target, .target .map-target .show-bg-map, .target .gender {
+	max-width: 100%;
+}
+.target .donut .donut-graph {
+	margin-bottom: 30px;
+}
+.target .profil-type .types-min .type {
+	height: auto;
+}
+.target .gender .women svg {
+	margin-right: 0;
+}
+.target .gender .men svg {
+	margin-left: 0;
+}
+
+.hero-image .slogan {
+	top: 70px;margin-top: 0;
+}
+.hero-image .slogan h1{
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 46px;
+}
+
+.box .menu {
+	width: 100%;
+	min-width: inherit;
+}
+.box .menu ul li {
+	font-size: 20px;
+}
+.box .media {
+	padding-left: 20px !important;
+}
+.box .control .panel {
+	display: none;
+}
+.box .wrap-pack {
+	width: 100% !important;margin-right: 0 !important;
+	padding-right: 5px;
+}
+.box .wrap-pack .description-tooltip-container {
+	display: none !important;
+}
+.box .non-medias.blue {
+	max-width: 85%;
+}
+.super .elements {
+	max-width: 100%;
+}
+
+.banner-image .slogan h3 {
+	font-size: 34px;
+}
+.banner-image img {
+	height: 300px;width: auto;
+	position: relative;top: 0;left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.table-packages {
+	width: 100%;
+}
+#number_packs {
+	font-size: 14px;
+}
+#number_packs .number {
+	font-size: 26px;
+}
+
+.sponsor {
+	margin-bottom: 30px;
+}
+
+.color-content:after {
+	content: "";
+	display: block;
+	clear: both;
+	margin-bottom: 20px;
+}
+.download a.button {
+	float: left;
+}
+
+#contact {
+	width: 100%;left: 0;
+	height: 100%;top: 0;
+	margin-left: 0;
+}
+#contact .small16 {
+	padding-left: 0;
+	margin: 10px 0px;
+}
+#contact .cross .icn-cross {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 10px;
+	right: 31px;
+	cursor: pointer;
+}
+#contact .cross .icn-cross svg {
+	width: 40px;
+	height: 40px;
+}
+#contact .cross .icn-cross polygon {
+	fill: #54636d!important;
+}
+.dropdown ul li {
+	width: 45%;margin-right: 5%;
+	overflow: hidden;
+}
+#contact .contactback, #contact .submit, #contact .contactback button, #contact .submit button {
+	width: 100%;
+}
+#contact .contactback {
+	margin-bottom: 10px;
+}
+.dropdown .dropdown-selected {
+	background-position: 92% 11px;
+}
+.additional .dropdown .dropdown-selected {
+	background-position: 95% center;
+}
+.packages-lightbox {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+.packages-lightbox .pl-close {
+	top: 5px;right: 5px;
+	z-index: 17;
+}
+.packages-lightbox .pl-content .pl-image {
+	max-width: 100%;max-height: 100%;
+	float: none;
+}
+.packages-lightbox .pl-bottom .pl-next-benefit, .packages-lightbox .pl-bottom .pl-prev-benefit {
+	font-size: 12px;padding: 29px 10px;
+}
+
+}
