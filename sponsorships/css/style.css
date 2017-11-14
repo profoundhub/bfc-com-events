@@ -3769,3 +3769,13 @@ vertical-align: top;}
 }
 
 
+@-webkit-keyframes greenPulse {
+	from { background-color: #0e32ff; -webkit-box-shadow: 0 0 9px #333; }
+	50% { background-color: #2948ff; -webkit-box-shadow: 0 0 18px #396afc; }
+	to { background-color: #0e32ff; -webkit-box-shadow: 0 0 9px #333; }
+  }
+  .greenButton {
+	-webkit-animation-name: greenPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+  }
