@@ -1,13 +1,9 @@
-
-
 window.is_iframe = false;
 window.is_loaded = false;
 var showClassicMedia = 0;
 
 $(document).on('ready', _sponseasyLoad);
-
 var templatesHTML = {};
-
 var sectionViews = {};
 var idForm = 0;
 var userId = 0;
@@ -118,11 +114,14 @@ function _sponseasyLoad(){
 		
 
 		load_control_slide();
-		hide_contact_packages();
+		// hide_contact_packages();
 		window.is_loaded = true;
 		initBox();
 		initHideMenu();
 		initCheckMarketing();
+		
+		// initHideMenu();
+
 	}).done(function(){
 		//$('.sponsorship-needed > h3').text('SPONSORSHIP OPPORTUNITIES');
 		//$('div[jt-section-view="offers"] h2').text('Event Packages');
@@ -700,12 +699,9 @@ function inIframe() {
 
 
 // Use for preview
-function showElement(containerView, header){
-
-	if(typeof header === 'undefined'){
+function showElement(containerView, header) {
+	if(typeof header === 'undefined') {
 		var targetElement = containerView.parents('[jt-section-view]');
-
-
 		// A RECODER - DYNAMIQUE 
 		if(targetElement.outerHeight() > (containerView.find('[jt-template-view]').outerHeight() + 210)){
 			targetElement = containerView.find('[jt-template-view]');
@@ -806,11 +802,11 @@ function initHideMenu(){
 
 // Process show and hide on slider
 // WARNING petit bug ne met pas a jour le menu du slider
-function showSection(containerView){
+function showSection(containerView) {
 	var sectionView = containerView.parents('[jt-section-view]');
 	var sectionName = sectionView.attr('jt-section-view');	
 
-	if(!sectionView.hasClass('element')){
+	if(!sectionView.hasClass('element')) {
 		return;
 	}
 
@@ -859,9 +855,6 @@ function showSection(containerView){
 // 	return sectionVisible;
 // }
 
-
-
-
 function getUrlParameters(parameter, staticURL, decode){
    /*
     Function: getUrlParameters
@@ -888,8 +881,6 @@ function getUrlParameters(parameter, staticURL, decode){
    }
    var parArr = currLocation.split("?")[1].split("&");
    var returnBool = true;
-   
-   
    
    for(var i = 0; i < parArr.length; i++){
         parr = parArr[i].split("=");
@@ -928,6 +919,6 @@ $(document).ready(function () {
     //$('#lloader').hide();
 });
 
-$(window).load(function(){
-	$('head title').html('Battleford Corp. - '+$('.slogan h1').text());
-})
+// $(window).load(function(){
+// 	$('head title').html('Battleford Corp - '+$('.slogan h1').text());
+// });

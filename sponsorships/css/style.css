@@ -209,6 +209,11 @@ h6{font-size: 14px;font-family: "Proxima Nova";font-weight: 400;text-transform: 
 #header .menu ul li#menu-sponsor {background-image: url(../image/icon/sponsor.png);-webkit-background-size: 21px 18px;background-size: 21px 18px;}
 #header .menu ul li#menu-annexes {background-image: url(../image/icon/link.png);-webkit-background-size: 19px 19px;background-size: 19px 19px;}
 
+@media screen and (min-width: 0px) and (max-width: 720px) {
+	#facebook { display: none; }
+	.mobile-hide { display: none; }
+  }
+
 #header .menu ul li.select,
 #header .menu ul li:hover
 {
@@ -217,12 +222,12 @@ h6{font-size: 14px;font-family: "Proxima Nova";font-weight: 400;text-transform: 
 	background-position: center center;
 }
 #header .menu ul li.select a,
-#header .menu ul li:hover a{
+#header .menu ul li:hover a {
 	opacity: 0;
 }
-#header .menu .logo{
+#header .menu .logo {
 	position: relative;
-	width: 95px;
+	/* width: 95px; */
 	height: 63px;
 	line-height: 63px;
 	vertical-align: middle;
@@ -233,7 +238,8 @@ h6{font-size: 14px;font-family: "Proxima Nova";font-weight: 400;text-transform: 
 	vertical-align: middle;
 	display: inline-block;
 	max-height:62px;
-	max-width: 100%;
+	/* max-width: 100%; */
+	max-width: 200px;
 }
 #header .header-contact {
 	width: 138px;
